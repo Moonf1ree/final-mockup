@@ -1,0 +1,31 @@
+$white: #ffffff;
+$text: #1b1c21;
+$textmiddle: #7e7e82;
+$textback: #b5b6bc;
+$boxshadow: #aba9a9;
+$accent: #41f6d7;
+$accentborder: #d9fff5;
+$themecolor: transparent;
+$itemborder: #eaeaea;
+$background: #f8f8f8;
+
+.button {
+  border: none;
+  outline: none;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  background-color: $themecolor;
+  border: none;
+
+  position: relative;
+
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
